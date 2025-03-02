@@ -1,7 +1,7 @@
 'use client'; 
 import { useState } from "react";
 import Navbar from '../app/components/Navbar'; 
-import StudentList from '../app/components/Studentlist';
+import StudentList from './components/StudentList';
 import students from '../public/students.json'; 
 import Footer from '../app/components/Footer';
 import AddStudentForm from '../app/components/AddStudentForm';
