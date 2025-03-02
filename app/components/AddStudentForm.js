@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 
+//This will allow on the client side to add a student into the server side list
 export default function AddStudentForm({ onAddStudent }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

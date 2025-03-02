@@ -1,3 +1,4 @@
+//this will display the students in the server side
 export default function StudentList({ students }) {
     return (
       <div className="w-full bg-gray-100 p-6">
