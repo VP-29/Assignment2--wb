@@ -1,0 +1,32 @@
+[
+    {
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "dateOfBirth": "2010-03-12",
+      "currentGrade": "8th Grade"
+    },
+    {
+      "firstName": "Liam",
+      "lastName": "Smith",
+      "dateOfBirth": "2009-07-05",
+      "currentGrade": "9th Grade"
+    },
+    {
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "dateOfBirth": "2011-11-18",
+      "currentGrade": "7th Grade"
+    },
+    {
+      "firstName": "Noah",
+      "lastName": "Brown",
+      "dateOfBirth": "2012-02-22",
+      "currentGrade": "6th Grade"
+    },
+    {
+      "firstName": "Olivia",
+      "lastName": "Davis",
+      "dateOfBirth": "2010-09-03",
+      "currentGrade": "8th Grade"
+    }
+  ]
