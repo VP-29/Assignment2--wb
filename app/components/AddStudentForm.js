@@ -1,4 +1,4 @@
-'use client'; 
+"use client";
 import { useState } from "react";
 
 export default function AddStudentForm({ onAddStudent }) {
@@ -30,7 +30,9 @@ export default function AddStudentForm({ onAddStudent }) {
       <h2 className="text-xl font-bold mb-4">Add New Student</h2>
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow">
         <div className="mb-4">
-          <label className="block text-sm font-medium mb-2 text-gray-600">First Name</label>
+          <label className="block text-sm font-medium mb-2 text-gray-600">
+            First Name
+          </label>
           <input
             type="text"
             value={firstName}
@@ -41,7 +43,9 @@ export default function AddStudentForm({ onAddStudent }) {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-medium mb-2 text-gray-600">Last Name</label>
+          <label className="block text-sm font-medium mb-2 text-gray-600">
+            Last Name
+          </label>
           <input
             type="text"
             value={lastName}
@@ -52,7 +56,9 @@ export default function AddStudentForm({ onAddStudent }) {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-medium mb-2 text-gray-600">Date of Birth</label>
+          <label className="block text-sm font-medium mb-2 text-gray-600">
+            Date of Birth
+          </label>
           <input
             type="date"
             value={dateOfBirth}
@@ -63,7 +69,9 @@ export default function AddStudentForm({ onAddStudent }) {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-medium mb-2 text-gray-600">Current Grade</label>
+          <label className="block text-sm font-medium mb-2 text-gray-600">
+            Current Grade
+          </label>
           <input
             type="text"
             value={currentGrade}
