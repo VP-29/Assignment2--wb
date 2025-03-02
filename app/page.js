@@ -1,7 +1,7 @@
 'use client'; 
 import { useState } from "react";
 import Navbar from '../app/components/Navbar'; 
-import StudentList from '../app/components/StudentList';
+import Studentlist from './components/Studentlist'
 import students from '../public/students.json'; 
 import Footer from '../app/components/Footer';
 import AddStudentForm from '../app/components/AddStudentForm';
@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <div className="flex flex-col md:flex-row gap-6">
         <div className="w-full md:w-2/3">
-          <StudentList students={studentsList} />
+          <Studentlist students={studentsList} />
         </div>
         <AddStudentForm onAddStudent={addStudent} />
       </div>

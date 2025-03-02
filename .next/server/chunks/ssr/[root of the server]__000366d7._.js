@@ -13,6 +13,7 @@ module.exports = mod;
 
 var { g: global, d: __dirname } = __turbopack_context__;
 {
+//simple static navbar acting as a header
 __turbopack_context__.s({
     "default": (()=>Navbar)
 });
@@ -26,12 +27,12 @@ function Navbar() {
             children: "NEW GENERATION'S STUDENT PORTAL"
         }, void 0, false, {
             fileName: "[project]/app/components/Navbar.js",
-            lineNumber: 4,
+            lineNumber: 5,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/Navbar.js",
-        lineNumber: 3,
+        lineNumber: 4,
         columnNumber: 7
     }, this);
 }
@@ -46,6 +47,7 @@ __turbopack_context__.v(JSON.parse("[{\"firstName\":\"Emily\",\"lastName\":\"Joh
 
 var { g: global, d: __dirname } = __turbopack_context__;
 {
+//this is just a normal footer that gives help information for the website
 __turbopack_context__.s({
     "default": (()=>Footer)
 });
@@ -60,7 +62,7 @@ function Footer() {
                 children: "This is the student portal for a list of attending students."
             }, void 0, false, {
                 fileName: "[project]/app/components/Footer.js",
-                lineNumber: 4,
+                lineNumber: 5,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -74,7 +76,7 @@ function Footer() {
                         children: "1 (888) 555-1234"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Footer.js",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 11
                     }, this),
                     " ",
@@ -86,20 +88,20 @@ function Footer() {
                         children: "support@newgenerations.edu"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Footer.js",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, this),
                     "."
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Footer.js",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Footer.js",
-        lineNumber: 3,
+        lineNumber: 4,
         columnNumber: 7
     }, this);
 }
@@ -144,7 +146,7 @@ function AddStudentForm({ onAddStudent }) {
                 children: "Add New Student"
             }, void 0, false, {
                 fileName: "[project]/app/components/AddStudentForm.js",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -159,7 +161,7 @@ function AddStudentForm({ onAddStudent }) {
                                 children: "First Name"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 33,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -170,13 +172,13 @@ function AddStudentForm({ onAddStudent }) {
                                 required: true
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AddStudentForm.js",
-                        lineNumber: 32,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -187,7 +189,7 @@ function AddStudentForm({ onAddStudent }) {
                                 children: "Last Name"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -198,13 +200,13 @@ function AddStudentForm({ onAddStudent }) {
                                 required: true
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AddStudentForm.js",
-                        lineNumber: 45,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -215,7 +217,7 @@ function AddStudentForm({ onAddStudent }) {
                                 children: "Date of Birth"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 59,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -226,13 +228,13 @@ function AddStudentForm({ onAddStudent }) {
                                 required: true
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 62,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AddStudentForm.js",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -243,7 +245,7 @@ function AddStudentForm({ onAddStudent }) {
                                 children: "Current Grade"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 72,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -254,13 +256,13 @@ function AddStudentForm({ onAddStudent }) {
                                 required: true
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AddStudentForm.js",
-                                lineNumber: 75,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AddStudentForm.js",
-                        lineNumber: 71,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -269,19 +271,19 @@ function AddStudentForm({ onAddStudent }) {
                         children: "Add Student"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AddStudentForm.js",
-                        lineNumber: 84,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/AddStudentForm.js",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/AddStudentForm.js",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -298,7 +300,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Navbar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/Navbar.js [app-ssr] (ecmascript)");
 (()=>{
-    const e = new Error("Cannot find module './app/components/StudentList'");
+    const e = new Error("Cannot find module '../app/components/Studentlist'");
     e.code = 'MODULE_NOT_FOUND';
     throw e;
 })();
